@@ -35,12 +35,11 @@ mycursor = mydb.cursor()
 # for x in myresult:
 #   print(x)
 
+# sql = "SELECT * FROM customers ORDER BY name"
 
-sql = "SELECT * FROM customers ORDER BY name"
+# mycursor.execute(sql)
 
-mycursor.execute(sql)
+# myresult = mycursor.fetchall()
 
-myresult = mycursor.fetchall()
-
-for x in myresult:
-  print(x)
+# for x in myresult:
+#   print(x)
