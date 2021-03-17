@@ -5,6 +5,7 @@ Breaking down the data from the VolunteerNexus platform
 
 In your terminal, first run these two commands:
 ```python3 -m pip install mysql-connector-python```
+
 ```python3 -m pip install matplotlib```
 
 ## Connecting to the Database
